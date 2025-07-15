@@ -1,3 +1,6 @@
+#--this turns on renv for this project
+# renv::init()
+
 library(shiny)
 library(bslib)
 library(ggplot2)
@@ -6,13 +9,18 @@ library(tidyr)
 library(ggthemes)
 library(naniar)
 
-# renv::init()
+#--this gets the most recent version of it
 # remotes::install_github("vanichols/PesticideLoadIndex4Dummies")
 library(PesticideLoadIndex4Dummies)
 
+#--this will update all of the packages associated with this project
+#renv:update()
 
-#--run this when changing code
-# renv::snapshot()
+#--run this when changing code and/or updating packages used
+#renv::snapshot()
+
+#--this one is a little more unclear to me, when to use it:
+#renv::restore()
 
 
 #used shiny app assistant: https://shiny.posit.co/blog/posts/shiny-assistant/
