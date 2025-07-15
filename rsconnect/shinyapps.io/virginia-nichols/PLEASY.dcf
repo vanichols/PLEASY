@@ -5,7 +5,7 @@ account: virginia-nichols
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15078989
-bundleId: 10619886
+bundleId:
 url: https://virginia-nichols.shinyapps.io/PLEASY/
 version: 1
 asMultiple: FALSE
